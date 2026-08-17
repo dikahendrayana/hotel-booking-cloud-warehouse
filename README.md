@@ -62,14 +62,14 @@ docker run -d -p 3000:3000 --name metabase metabase/metabase
 ```
 
 ## 📂 Project Structure
-
+```
 hotel_booking_analytics/
 ├── models/
-│ ├── staging/ # stg_hotel_bookings + sources.yml
-│ └── marts/ # monthly_revenue_summary
+│ ├── staging/         # stg_hotel_bookings + sources.yml
+│ └── marts/           # monthly_revenue_summary
 ├── dbt_project.yml
 └── README.md
-
+```
 ---
 
 ## 👤 Author
